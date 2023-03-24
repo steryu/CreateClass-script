@@ -1,7 +1,7 @@
 # CreateClass-script
 
 This an simple but usefull script to create classes in C++. 
-During the CPP module you need to write a lot of them! So this may be handy for you, feel free to use it:)
+During the CPP modules you need to write a lot of them! So this may be handy for you, feel free to use it:)
 
 ### **How to use**
 - **Clone the repository**
