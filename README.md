@@ -18,40 +18,40 @@ it will then create a {class_name}.cpp file and a matching {class_name}.hpp file
 
 .cpp
 ``` cpp
-  #include "class.hpp"
+  #include "class_name.hpp"
 
-  class::class(){
-    std::cout << "Default class constructor called" << std::endl;
+  class_name::class_name(){
+    std::cout << "Default class_name constructor called" << std::endl;
   }
 
-  class::~class(){
-    std::cout << "class destroyed" << std::endl;
+  class_name::~class_name(){
+    std::cout << "class_name destroyed" << std::endl;
   }
 
-  class::class(const class &other){
+  class_name::class_name(const class_name &other){
     *this = other;
-    std::cout << "class copied" << std::endl;
+    std::cout << "class_name copied" << std::endl;
   }
 
-  class& class::operator=(const class &other){
+  class_name& class_name::operator=(const class_name &other){
     return(*this);
-    std::cout << "class copied using an assignment" << std::endl;
+    std::cout << "class_name copied using an assignment" << std::endl;
   }
 ```
 .hpp
 ``` cpp
-  #ifndef __CLASS_HPP__
-  #define __CLASS_HPP__
+  #ifndef __class_name_HPP__
+  #define __class_name_HPP__
   #include <iostream>
 
-  class class{
+  class class_name{
   protected:
   private:
   public:
-    class();
-    virtual ~class();
-    class(const class &other);
-    class& operator=(const class &other);
+    class_name();
+    virtual ~class_name();
+    class_name(const class_name &other);
+    class_name& operator=(const class_name &other);
 };
 
 #endif
