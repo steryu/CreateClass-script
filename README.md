@@ -12,7 +12,7 @@ During the CPP modules you need to write a lot of them! So this may be handy for
 ``` sh
 ./createClass.sh {class_name}
 ```
-it will then create a {class_name}.cpp file and an matching {class_name}.hpp file.
+it will then create a {class_name}.cpp file and a matching {class_name}.hpp file.
 
 ### **The Files**
 
