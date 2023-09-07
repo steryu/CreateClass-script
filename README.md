@@ -57,4 +57,4 @@ it will then create a {class_name}.cpp file and a matching {class_name}.hpp file
 #endif
 ```
 
-The script is inspired by [Maia de Graaf](https://github.com/maiadegraaf/42-Ultimate-Orthodox-Canonical-Class-Creator), who made a more complicated script, this an simplified version.
+The script is inspired by [Maia de Graaf](https://github.com/maiadegraaf/42-Ultimate-Orthodox-Canonical-Class-Creator), who made a more complicated script, this a simplified version.
